@@ -1,0 +1,166 @@
+\documentclass{article}
+\usepackage[german]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{multicol}
+
+\title{Signal und System Theorie}
+\author{Prof. Dr.-Ing. Frank Giesecke}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{28.10.2024}
+
+\subsection*{Wiederholung}
+
+\begin{enumerate}
+\item Leistungssignale \\
+Gleichanteil/ linearer Mittelwert/ Moment 1. Ordnung \\
+$\Bar{x} = (coming_soon)$
+\[
+    f(x) = \lim_{T\to\infty} \int_{-T}^{T} x^2 \,dt 
+\]
+
+\item Signalgleichleistung \\
+(Leistung, die den Gleichanteil verursacht) \\
+$P_{x=} = \Bar{x}^2 = m_1^2$
+
+\item mittlere Signalleistung/ quadratische Mittelwert/ Gesamt-Signalleistung / Moment 2. Ordnung \\
+$P = \Bar{x^2} = m_2 = (coming_soon)$
+
+\item Effektivwert (Wurzel aus der mittleren Signalleistung) \\
+$x_{eff}=\sqrt{P}=\sqrt{x^2}$
+
+\item Signalwechselleistung/ Varianz/ Zentral-Moment 2. Ordnung \\
+$P_{x~}=\sigma^2 = \mu_2 = P_x - P_{x=} = \Bar{x^2} - \Bar{x}^2$
+
+\item Standartabweichung \\
+$\sigma = \sqrt{P_{x~}} = \sqrt{\mu_2}$
+\end{enumerate}
+
+\subsection*{Alternative Berechnung der Signalwechselleistung/ Varianz/ Zentral-Moment 2. Ordnung}
+$P_{x~} = (coming_soon)$ \\
+$P_{x~} = P_x - P_x$
+
+\subsection*{Direkte Berechnung der Varianz/ Signalwechselspannung aus einem Datensatz (digital)}
+
+\begin{center}
+    Fallunterscheidung
+\end{center}
+\begin{multicols}{2}
+    linerer Mittelwert/ Gleichanteil ist bekannt oder kann exakt bestimmt werden. \\
+    $\Bar{x} ist bekannt$ \\
+    $\sigma^2 = P_{x~} = \mu_2 = (coming_soon)$
+    
+    \columnbreak
+    linearer Mittelwert wird aus den N Werten bestimmt. \\
+    $\Bar{x} ist un-bekannt$ \\
+    $\Bar{x_N} = (coming_soon)$ \\
+    $\sigma^2 = P_x = (coming_soon)$
+    
+\end{multicols}
+\begin{center}
+    N = Anzahl der Werte
+\end{center}
+
+\subsection*{Es folgt:}
+Angenäherter Einheitssprung, Einheitssprung-Funktion, Einheitsimpuls-Funktion, Deltaimpuls/ Dirac-Impuls, Einheitsanstiegs-Funktion
+
+\subsection*{Angenäherter Einheitssprung ($\delta$ delta)}
+\begin{multicols}{3}
+    (grafic is coming soon)
+
+    \columnbreak
+
+    \begin{center}
+    $\overrightarrow{Differentation}$ \\
+    $(\frac{d}{dt})$ \\
+    \vspace{1em}
+    $\overleftarrow{Integration}$ \\
+    $\hookrightarrow$ Intigrationsgrenzen \\
+    $-\infty bis aktueller Zeitpunkt (t)$ \\
+    $\sigma = (coming_soon)$
+    \end{center}
+
+    \columnbreak
+
+    (grafic is coming soon)
+    
+    
+\end{multicols}
+
+\section*{\cen  tering **.**.2024 Vorlesung noch nicht nachgetragen}
+
+\newpage
+\section*{\centering 11.11.2024}
+\subsection*{\centering Ergänzung: Kreuzrelation}
+
+\[
+    E_{x1x2}(\tau)=\int_{-\infty}^{\infty}x(t)*x_2(t+\tau)*dt
+\]
+mindestens eines der Verläufe muss ein Energiesignal sein. \\
+Wenn beide Verläufe $x_1$ und $x_2$ Leistungssignale sind, dann:
+\[
+    Allg. Variante: P_{x1x2}(\tau)=\lim_{T\to\infty}x_1(t)x_2*x_2(t+\tau)*dt
+\]
+
+    bei Vorliegen einer Periodizität von $x_1$ und $x_2$
+\[
+    P_{x1x2}(\tau)=\frac{1}{T}\int_{0}^{T}x(t)*x_2(t+\tau)*dt
+\]
+entweder T als gleiche Periode bei den Verläufen oder T als gemeinsames Vielfaches der beiden Periodenduaer von $x_1$ und $x_2$
+
+\subsection*{\centering Das System}
+(system bild fehlt noch wurde aber schon erstellt)
+
+\subsubsection*{\centering Im Zeitbereich:}
+z.B. Spannung $u_e(t) \to u_a(t)$ \\
+oder digital/zeitdiskret
+
+\subsubsection*{\centering System im Laplace Bereich}
+$s=\sigma+j\omega$ \\
+(system im laplace-bereich bild fehlt wurde aber schon erstellt)
+
+\subsubsection*{\centering System in Frequenzbereich}
+
+\subsubsection*{\centering System-Eigenschaften}
+4 Grundeigenschaften:
+\begin{itemize}
+    \item Linearität
+    \begin{itemize}
+        \item linear
+        \item licht linear
+    \end{itemize}
+    
+    \item Zeitinvarianz
+    \begin{itemize}
+        \item Zeit-konstant
+        \item Zeit-veränderlich
+    \end{itemize}
+    
+    \item Kausalität
+    \begin{itemize}
+        \item kausal
+        \begin{itemize}
+            \item statisch (speicherlos)
+            \item dynamisch (mit Speicherelementen)
+        \end{itemize}
+        \item a-kausal (nicht kausal)
+    \end{itemize}
+    
+    \item Stabilität
+    \begin{itemize}
+        \item Stabil
+        \item Grenz-Stabil
+        \item In-Stabil
+    \end{itemize}
+\end{itemize}
+
+
+\end{document}
