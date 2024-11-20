@@ -1,12 +1,21 @@
 \documentclass[a4paper]{article}
+
+% === Useful packages ===
 \usepackage[german]{babel}
 % \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
-% Useful packages
 \usepackage{amsmath}
 \usepackage{graphicx}
 % \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+% --- manage multicols ---
 \usepackage{multicol}
+% \setlength{\columnsep}{Xpt}
+\setlength{\columnseprule}{1pt}
+
+\usepackage{paracol} % cause multicol does not work properly over several pages I have to use paracol
+% \setlength{\columnsep}{Xpt}
+% \setlength{\columnseprule}{1pt}
 
 \title{Signal und System Theorie}
 \author{Prof. Dr.-Ing. Frank Giesecke}
@@ -114,7 +123,7 @@ Wenn beide Verläufe $x_1$ und $x_2$ Leistungssignale sind, dann:
 entweder T als gleiche Periode bei den Verläufen oder T als gemeinsames Vielfaches der beiden Periodenduaer von $x_1$ und $x_2$
 
 \subsection*{\centering Das System}
-(system bild fehlt noch wurde aber schon erstellt)
+\includegraphics[scale=0.8]{img/2024_11_11.png}
 
 \subsubsection*{Im Zeitbereich:}
 z.B. Spannung $u_e(t) \to u_a(t)$ \\
@@ -160,8 +169,88 @@ $s=\sigma+j\omega$ \\
 \end{itemize}
 
 \newpage
-\section*{20.11.2024}
+\section*{13.11.2024 (fehlt)}
 
+\newpage
+\section*{\centering 18.11.2024 (fehlt)}
+die Aufzeichnung dieser Stunde habe ich auf dem Papier gemacht und muss noch nachgetragen werden.
+
+\newpage
+\section*{\centering 20.11.2024}
+\subsection*{Stabilitätsbestimmung über die Übertragungsfunktion}
+\begin{itemize}
+	\item analoge/zeitkontinuierliche Systeme $G(s)$ Übertragungsfunktion \\
+	s: Laplace Variable \\
+	$s=\delta+j\omega$
+	\item digitale/zeitdiskrete Systeme $G(z)$ Übertragungsfunktion \\
+	z: z-Variable \\
+	$z=Re(z) + j * Im(z) = |z| * e^{j*\phi_z} $
+\end{itemize}
+Nullsetzen des ZählerTerms $(G(s) bzw. G(z))$ liefert die Nullstellen \\
+Nullsetzen des Nenner-Terms $(G(s) bzw. G(z))$ liefert die Polstelle \\
+Wenn eine Nullstelle nicht genau auf eine Polstelle fällt haben die Nullstellen keinen Einfluss auf die Stabilität. \\
+Wenn eine Nullstelle genau auf eine Polstelle fällt, wird die entsprechende Polstelle ausgelöscht.
+\begin{center}
+Bsp.:
+\[
+G(s) = \frac{ (s-s_{01}) * (s-s_{0n}) }{ (s-s_{p1}) * (s-s_{pn}) }*K
+\]
+\end{center}
+
+\subsubsection*{Betrachtung der verbleibenden (nicht durch Nullstellen ausgelöschten) Polstellen zur Stabilitätsbestimmung}
+Betrachtung der Lage der Polstellen in den Ebenen
+\begin{paracol}{2}
+$G(s) \rightarrow$  s-Ebene \\
+\includegraphics[scale=0.8]{img/2024_11_20_s-Ebene.png}
+\begin{itemize}
+	\item Polstellen link von der $j\omega$-Achse \\
+	$\rightarrow$ System ist Stabil
+	\item mindestens eine Polstelle rechts der $j\omega$-Achse oder mindestens eine mehrfache Polstelle auf der $j\omega$-Achse \\
+	$\rightarrow$ System ist stabil
+	\item keine Posstelle rechts der $j\omega$-Achse und nur einfache Polstellen (beliebiger Anzahl an unterschiedlichen Stellen) \\
+	$\rightarrow$ System ist grenzstabil
+\end{itemize}
+\paragraph{Bsp. Integrator}
+\[
+E \rightarrow G_I(s)=\frac{1}{s} = s^{-1} \rightarrow A
+\]
+2 Intigratoren in Kette:
+\[
+E \rightarrow s^{-1} \rightarrow s^{-1} \rightarrow A
+\]
+$\rightarrow$ 2 grenzstabile Systeme werden zusammen 1 instabiles System
+
+\switchcolumn
+
+$G(z) \rightarrow$ z-Ebene \\
+\includegraphics[scale=0.8]{img/2024_11_20_z-Ebene.png}
+\begin{itemize}
+	\item alle Polstellen innerhalb des Einheitskreises (nicht auf dem Einheitskreis) \\
+	$\rightarrow$ System ist stabil
+	\item mindestens eine Polstelle außerhalb des Einheitskreises oder mindestens eine mehrfache Polstelle auf dem Einheitskreis \\
+	$\rightarrow$ System ist stabil
+	\item keine Polstelle außerhalb des Einheitskreises und nur einfache Polstellen (beliebiger Anzahl an unterschiedlichen Stellen) auf dem Einheitskreis \\
+	$\rightarrow$ System ist grenzstabil
+\end{itemize}
+\paragraph{Bsp. Integrator}
+\[
+E \rightarrow s^{-1} \rightarrow s^{-1} \rightarrow A
+\]
+\[
+G_{ges} = G_1(s) * G_2(s) = s^{-2}
+\]
+doppelte Polstelle bei 0 \\
+$\rightarrow$ 2 stabile Systeme werden zusammen 1 instabiles System
+\end{paracol}
 
 
 \end{document}
+
+
+
+
+
+
+
+
+

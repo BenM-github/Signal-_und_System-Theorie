@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  20 NOV 2024 07:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  20 NOV 2024 09:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -221,43 +221,71 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \colbreak@box=\box98
 \mc@col@check@num=\count284
 )
+(C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/latex/paracol\paracol.sty
+Package: paracol 2024/10/22 1.36 typeset columns in parallel
+\pcol@currcol=\count285
+\pcol@nextcol=\count286
+\pcol@ncol=\count287
+\pcol@ncolleft=\count288
+\pcol@page=\count289
+\pcol@basepage=\count290
+\pcol@toppage=\count291
+\pcol@footnotebase=\count292
+\pcol@nfootnotes=\count293
+\pcol@mcid=\count294
+\pcol@prevdepth=\dimen162
+\pcol@colht=\dimen163
+\pcol@textfloatsep=\dimen164
+\pcol@lrmargin=\dimen165
+\pagerim=\dimen166
+\pcol@topskip=\skip55
+\belowfootnoteskip=\skip56
+\pcol@topfnotes=\box99
+\pcol@prespan=\box100
+\pcol@rightpage=\box101
+\pcol@colorstack@saved=\box102
+\pcol@tempboxa=\box103
+\pcol@tempboxb=\box104
+\pcol@colorins=\insert252
+\pcol@everyvbox=\toks23
+)
 (C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
 pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box99
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box105
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen162
-\scratchbox=\box100
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen163
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count296
+\scratchdimen=\dimen167
+\scratchbox=\box106
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen168
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks25
 )
 (C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
 f-base.sty
@@ -278,41 +306,91 @@ Overfull \vbox (9.69449pt too high) has occurred while \output is active []
 [1
 
 {C:/Users/ZOBMUEL2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (9.75302pt too wide) in paragraph at lines 73--74
+Overfull \hbox (9.75302pt too wide) in paragraph at lines 82--83
 \OT1/cmr/m/n/10 Angen[]aherter Ein-heits-sprung, Einheitssprung-Funktion, Einhe
 itsimpuls-Funktion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 []\OT1/cmr/m/n/10 (grafic is co-ming
  []
 
 
-Overfull \hbox (19.00748pt too wide) in paragraph at lines 87--87
+Overfull \hbox (19.00748pt too wide) in paragraph at lines 96--96
  []$\OMS/cmsy/m/n/10 ^^@1\OML/cmm/m/it/10 bisaktuellerZeitpunkt\OT1/cmr/m/n/10 
 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 []\OT1/cmr/m/n/10 (grafic is co-ming
  []
 
-[2] [3] [4] [5] (main.aux)
+[2]
+<img/2024_11_11.png, id=19, 522.95375pt x 191.71625pt>
+File: img/2024_11_11.png Graphic file (type png)
+<use img/2024_11_11.png>
+Package pdftex.def Info: img/2024_11_11.png  used on input line 126.
+(pdftex.def)             Requested size: 418.36356pt x 153.3732pt.
+
+Overfull \hbox (73.36356pt too wide) in paragraph at lines 126--127
+[] 
+ []
+
+[3 <./img/2024_11_11.png>] [4] [5] [6]
+Overfull \hbox (3.73152pt too wide) in paragraph at lines 200--200
+[]\OT1/cmr/bx/n/10 Betrachtung der ver-blei-ben-den (nicht durch Null-stel-len 
+aus-gel[]oschten)
+ []
+
+<img/2024_11_20_s-Ebene.png, id=36, 176.66pt x 176.66pt>
+File: img/2024_11_20_s-Ebene.png Graphic file (type png)
+<use img/2024_11_20_s-Ebene.png>
+Package pdftex.def Info: img/2024_11_20_s-Ebene.png  used on input line 204.
+(pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
+
+Overfull \hbox (1.80179pt too wide) in paragraph at lines 208--210
+\OT1/cmr/m/n/10 ne mehr-fa-che Pol-stel-le auf der $\OML/cmm/m/it/10 j!$\OT1/cm
+r/m/n/10 -
+ []
+
+
+Overfull \hbox (6.13504pt too wide) in paragraph at lines 210--212
+[]\OT1/cmr/m/n/10 keine Pos-stel-le rechts der $\OML/cmm/m/it/10 j!$\OT1/cmr/m/
+n/10 -Achse
+ []
+
+<img/2024_11_20_z-Ebene.png, id=37, 176.66pt x 176.66pt>
+File: img/2024_11_20_z-Ebene.png Graphic file (type png)
+<use img/2024_11_20_z-Ebene.png>
+Package pdftex.def Info: img/2024_11_20_z-Ebene.png  used on input line 226.
+(pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
+
+Overfull \hbox (2.91693pt too wide) in paragraph at lines 230--232
+\OT1/cmr/m/n/10 halb des Ein-heits-krei-ses oder min-
+ []
+
+
+Overfull \hbox (0.41692pt too wide) in paragraph at lines 232--234
+[]\OT1/cmr/m/n/10 keine Pol-stel-le au-^^Yer-halb des Ein-
+ []
+
+[7 <./img/2024_11_20_s-Ebene.png> <./img/2024_11_20_z-Ebene.png>] [8] (main.aux
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3292 strings out of 474486
- 54436 string characters out of 5742338
- 1933542 words of memory out of 5000000
- 25569 multiletter control sequences out of 15000+600000
+ 3986 strings out of 474486
+ 66457 string characters out of 5742338
+ 1935542 words of memory out of 5000000
+ 26259 multiletter control sequences out of 15000+600000
  563787 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,65p,223b,257s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,14n,65p,223b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ZOBMUEL2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
 crm1000.pk><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/t
@@ -320,17 +398,19 @@ ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ZOBMUEL2/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ZOBMUEL2/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
-s/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.p
+s/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.p
 fb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ZOBMUEL2/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ZOBMUEL2/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (5 pages, 157479 bytes).
+/cm/cmmi7.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ZOBMUEL2/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ZOBMUEL2/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+>
+Output written on main.pdf (8 pages, 186887 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
