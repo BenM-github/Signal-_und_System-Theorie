@@ -1,8 +1,10 @@
-\documentclass[a4paper]{article}
+%\documentclass[a4paper]{article}
+\documentclass{article}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
 % === Useful packages ===
 \usepackage[german]{babel}
-% \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -103,6 +105,7 @@ Angenäherter Einheitssprung, Einheitssprung-Funktion, Einheitsimpuls-Funktion, 
 
 \section*{\centering **.**.2024 Vorlesung noch nicht nachgetragen}
 
+
 \newpage
 \section*{\centering 11.11.2024}
 \subsection*{Ergänzung: Kreuzrelation}
@@ -168,8 +171,11 @@ $s=\sigma+j\omega$ \\
     \end{itemize}
 \end{itemize}
 
+
 \newpage
 \section*{13.11.2024 (fehlt)}
+war krank und muss noch nachtragen
+
 
 \newpage
 \section*{\centering 18.11.2024 (fehlt)}
@@ -244,7 +250,76 @@ $\rightarrow$ 2 stabile Systeme werden zusammen 1 instabiles System
 \end{paracol}
 
 
+\newpage
+\section*{\centering 25.11.2024}
+\subsection*{Anforderung an die Systemeigenschaften zur Anwendbarkeit von Werkzeugen der Systemtheorie}
+Beschreibung eines Systems durch:
+\begin{itemize}
+	\item Impulsantwort: $g(t), g(k)$; Sprungantwort: $h(t), h(k)$; Anstiegsanwort: $a(t), a(k)$ \\
+	System muss linear und zeitinvariant sein. \\
+	(Kausalität und Stabilität sind beliebig)
+	\begin{center}
+		$h(t) = \int_{0}^{t}g(t)*d\tau$ \\
+		$g(t) = \frac{dh(t)}{dt}$
+	\end{center}
+	
+	\item Übertragungsfunktion: $G<(s)$ (Laplace), $G(z)$ (z-Transformation) \\
+	System muss linear, zeitinvariant und kausal sein. \\
+	(Stabilität spielt keine Rolle)
+
+	\item Komplexer Frequenzgang $G(j\omega)$, $G(\omega)$, G(jf), G(f) bzw. G(m) \\
+	System muss linear, zeitinvariant und stabil oder grenzstabil sein. \\
+	(Kausalietät spielt keine Rolle)
+	\begin{center}
+		Fourier-Transformation: $g(t) \rightarrow G(j\omega)$ \\
+		Diskrete-Fourier-Transformation: $g(t) \rightarrow G(m)$
+	\end{center}
+\end{itemize}
+
+\paragraph{Querverbindung:}
+$G(s) \rightarrow G(j\omega)$, $G(\omega)$,  G(jf) oder G(f) \\
+$s=\delta + j\omega \rightarrow \delta = 0$\\
+Nur bei einem stabilen oder Grenzstabilen System erlaubt.
+
+\subsection*{Ausgang eines linearen und zeitinvarianten Systems zur System-Charakterisierung}
+\paragraph{Deltaimpuls} ist am besten geeignet weil: 
+\begin{itemize}
+	\item besitzt alle Frequenzanteile
+	\item alle Frequenzanteile haben die selbe Intensität
+\end{itemize}
+\includegraphics[scale=0.8]{img/2024_11_25_fourier_deltaimpuls.png}
+
+\paragraph{Einheitssprung:} \mbox{} \\
+\includegraphics[scale=0.8]{img/2024_11_25_fourier_einheitssprung.png}
+
+\paragraph{Einheitsanstieg:} \mbox{} \\
+\includegraphics[scale=0.8]{img/2024_11_25_fourier_einheitsanstieg.png}
+
+\subsection*{Ermittlung des Ausgangssignals aus einem Eingangssignal bei bekannter Impulsantwort g(t) bzw. g(k)}
+Eingangssignal x(t) $\rightarrow$ System g(t) $\rightarrow$ Ausgangssignal y(t)
+
+\paragraph{Faltungsoperation (*):}
+\begin{center}
+$ y(t) = x(t) * g(t)$ \\
+(Faltung wird durch Transformation zur komplexen Multiplikation) \\
+\mbox{} \\
+$y(t) = x(t) * g(t) = \int_{-\infty}^{\infty} x(t) * g(-\tau + t) d\tau$ \\
+(äquivalent mit Summe für zeitdiskrete Systeme)
+\end{center}
+
+\paragraph{Kreuzkorrelation (schon mal gemacht)}
+\begin{center}
+$E_{x_1x_2}(\tau) = \int_{-\infty}^{\infty} x_1(t) * x_2(t + \tau) * dt$ \\
+(Im prinzip das selbe wie die Faltungsoperation nur mit einer anderen Intention)
+\end{center}
+
+
 \end{document}
+
+
+
+
+
 
 
 
