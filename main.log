@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  25 NOV 2024 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  27 NOV 2024 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -199,39 +199,109 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
+(C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count278
+\mult@box=\box53
+\multicol@leftmargin=\dimen161
+\c@unbalance=\count279
+\c@collectmore=\count280
+\doublecol@number=\count281
+\multicoltolerance=\count282
+\multicolpretolerance=\count283
+\full@width=\dimen162
+\page@free=\dimen163
+\premulticols=\dimen164
+\postmulticols=\dimen165
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen166
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count284
+\c@columnbadness=\count285
+\c@finalcolumnbadness=\count286
+\last@try=\dimen167
+\multicolovershoot=\dimen168
+\multicolundershoot=\dimen169
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count287
+)
 (C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/latex/paracol\paracol.sty
 Package: paracol 2024/10/22 1.36 typeset columns in parallel
-\pcol@currcol=\count278
-\pcol@nextcol=\count279
-\pcol@ncol=\count280
-\pcol@ncolleft=\count281
-\pcol@page=\count282
-\pcol@basepage=\count283
-\pcol@toppage=\count284
-\pcol@footnotebase=\count285
-\pcol@nfootnotes=\count286
-\pcol@mcid=\count287
-\pcol@prevdepth=\dimen161
-\pcol@colht=\dimen162
-\pcol@textfloatsep=\dimen163
-\pcol@lrmargin=\dimen164
-\pagerim=\dimen165
-\pcol@topskip=\skip53
-\belowfootnoteskip=\skip54
-\pcol@topfnotes=\box53
-\pcol@prespan=\box54
-\pcol@rightpage=\box55
-\pcol@colorstack@saved=\box56
-\pcol@tempboxa=\box57
-\pcol@tempboxb=\box58
+\pcol@currcol=\count288
+\pcol@nextcol=\count289
+\pcol@ncol=\count290
+\pcol@ncolleft=\count291
+\pcol@page=\count292
+\pcol@basepage=\count293
+\pcol@toppage=\count294
+\pcol@footnotebase=\count295
+\pcol@nfootnotes=\count296
+\pcol@mcid=\count297
+\pcol@prevdepth=\dimen170
+\pcol@colht=\dimen171
+\pcol@textfloatsep=\dimen172
+\pcol@lrmargin=\dimen173
+\pagerim=\dimen174
+\pcol@topskip=\skip55
+\belowfootnoteskip=\skip56
+\pcol@topfnotes=\box99
+\pcol@prespan=\box100
+\pcol@rightpage=\box101
+\pcol@colorstack@saved=\box102
+\pcol@tempboxa=\box103
+\pcol@tempboxb=\box104
 \pcol@colorins=\insert252
 \pcol@everyvbox=\toks24
 )
 (C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
 pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count298
+\l__pdf_internal_box=\box105
 )
 (C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_system_
 theorie\main.aux)
@@ -290,16 +360,16 @@ LaTeX Font Info:    ... okay on input line 25.
 (C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen166
-\scratchbox=\box60
-\nofMPsegments=\count290
-\nofMParguments=\count291
+\scratchcounter=\count299
+\scratchdimen=\dimen175
+\scratchbox=\box106
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen167
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen176
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks26
 )
 (C:\Users\ZOBMUEL2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
@@ -348,151 +418,168 @@ File: img/2024_11_11.png Graphic file (type png)
 <use img/2024_11_11.png>
 Package pdftex.def Info: img/2024_11_11.png  used on input line 127.
 (pdftex.def)             Requested size: 418.36356pt x 153.3732pt.
-
-
-! Package paracol Error: Environment paracol cannot be nested..
-
-See the paracol package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 \begin{paracol}{2}
-                        
-? 
-
-Overfull \hbox (15.16562pt too wide) in paragraph at lines 152--153
-[]\OT1/cmr/m/n/10 Zeit-ver[]anderlich 
- []
-
-
-Overfull \hbox (23.11003pt too wide) in paragraph at lines 160--161
-[]\OT1/cmr/m/n/10 statisch (spei-
- []
-
-
-Overfull \hbox (9.66562pt too wide) in paragraph at lines 161--162
-[]\OT1/cmr/m/n/10 dynamisch
- []
-
-
-Overfull \hbox (6.55449pt too wide) in paragraph at lines 161--162
-\OT1/cmr/m/n/10 (mit Spei-
- []
-
-
-Overfull \hbox (14.91556pt too wide) in paragraph at lines 161--162
-\OT1/cmr/m/n/10 che-r-ele-men-
- []
-
-[5]
-Overfull \hbox (4.61008pt too wide) in paragraph at lines 163--164
-[]\OT1/cmr/m/n/10 a-kausal (nicht
- []
-
-[5 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_syst
-em_theorie/img/2024_11_11.png>] [6] [7]
-Overfull \hbox (6.78656pt too wide) in paragraph at lines 219--220
+ [5 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
+tem_theorie/img/2024_11_11.png>] [6] [7]
+Overfull \hbox (6.78656pt too wide) in paragraph at lines 185--186
 [][] \OT1/cmr/m/n/10 BIBO-Stabilit[]at[] (Boun-ded
  []
 
 
-Overfull \hbox (0.95317pt too wide) in paragraph at lines 219--220
+Overfull \hbox (0.95317pt too wide) in paragraph at lines 185--186
 \OT1/cmr/m/n/10 In-put - Boun-ded Out-put)
  []
 
 
-Overfull \hbox (7.48087pt too wide) in paragraph at lines 220--221
+Overfull \hbox (7.48087pt too wide) in paragraph at lines 186--187
 []\OT1/cmr/m/n/10 Nachweis via Be-tr[]agsfl[]ache 
  []
 
 
-Overfull \hbox (0.14752pt too wide) in paragraph at lines 224--225
+Overfull \hbox (0.14752pt too wide) in paragraph at lines 190--191
 \OT1/cmr/m/n/10 me f[]ur zeit-dis-kre-te Sy-ste-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Overfull \hbox (8.69295pt too wide) in paragraph at lines 244--245
+Overfull \hbox (8.69295pt too wide) in paragraph at lines 210--211
 []\OT1/cmr/m/n/10 (Ilustration Ein-gangs-si-gnal $\OMS/cmsy/m/n/10 !$
  []
 
 
-Overfull \hbox (8.69295pt too wide) in paragraph at lines 247--248
+Overfull \hbox (8.69295pt too wide) in paragraph at lines 213--214
 []\OT1/cmr/m/n/10 (Ilustration Ein-gangs-si-gnal $\OMS/cmsy/m/n/10 !$
  []
 
 [8]
-<img/2024_11_20_s-Ebene.png, id=46, 176.66pt x 176.66pt>
+<img/2024_11_20_s-Ebene.png, id=43, 176.66pt x 176.66pt>
 File: img/2024_11_20_s-Ebene.png Graphic file (type png)
 <use img/2024_11_20_s-Ebene.png>
-Package pdftex.def Info: img/2024_11_20_s-Ebene.png  used on input line 285.
+Package pdftex.def Info: img/2024_11_20_s-Ebene.png  used on input line 251.
 (pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
 
-Overfull \hbox (8.2533pt too wide) in paragraph at lines 284--286
+Overfull \hbox (8.2533pt too wide) in paragraph at lines 250--252
 [] 
  []
 
 
-Overfull \hbox (3.42133pt too wide) in paragraph at lines 287--289
+Overfull \hbox (3.42133pt too wide) in paragraph at lines 253--255
 []\OT1/cmr/m/n/10 Polstellen link von der $\OML/cmm/m/it/10 j!$\OT1/cmr/m/n/10 
 -
  []
 
-<img/2024_11_20_z-Ebene.png, id=47, 176.66pt x 176.66pt>
+<img/2024_11_20_z-Ebene.png, id=44, 176.66pt x 176.66pt>
 File: img/2024_11_20_z-Ebene.png Graphic file (type png)
 <use img/2024_11_20_z-Ebene.png>
-Package pdftex.def Info: img/2024_11_20_z-Ebene.png  used on input line 307.
+Package pdftex.def Info: img/2024_11_20_z-Ebene.png  used on input line 273.
 (pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
 [9 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_syst
 em_theorie/img/2024_11_20_s-Ebene.png> <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss
  AG/projects/private_signal_und_system_theorie/img/2024_11_20_z-Ebene.png>]
 [10]
-Overfull \hbox (33.37158pt too wide) in paragraph at lines 359--359
+Overfull \hbox (33.37158pt too wide) in paragraph at lines 325--325
 []\OT1/cmr/bx/n/12 Ausgang ei-nes li-nea-ren und zei-tin-va-ri-an-ten Sy-stems 
 zur System-Charakterisierung 
  []
 
-<img/2024_11_25_fourier_deltaimpuls.png, id=57, 550.055pt x 143.53625pt>
+<img/2024_11_25_fourier_deltaimpuls.png, id=54, 550.055pt x 143.53625pt>
 File: img/2024_11_25_fourier_deltaimpuls.png Graphic file (type png)
 <use img/2024_11_25_fourier_deltaimpuls.png>
 Package pdftex.def Info: img/2024_11_25_fourier_deltaimpuls.png  used on input 
-line 365.
+line 331.
 (pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
-<img/2024_11_25_fourier_einheitssprung.png, id=58, 550.055pt x 143.53625pt>
+<img/2024_11_25_fourier_einheitssprung.png, id=55, 550.055pt x 143.53625pt>
 File: img/2024_11_25_fourier_einheitssprung.png Graphic file (type png)
 <use img/2024_11_25_fourier_einheitssprung.png>
 Package pdftex.def Info: img/2024_11_25_fourier_einheitssprung.png  used on inp
-ut line 368.
+ut line 334.
 (pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
-<img/2024_11_25_fourier_einheitsanstieg.png, id=59, 550.055pt x 143.53625pt>
+<img/2024_11_25_fourier_einheitsanstieg.png, id=56, 550.055pt x 143.53625pt>
 File: img/2024_11_25_fourier_einheitsanstieg.png Graphic file (type png)
 <use img/2024_11_25_fourier_einheitsanstieg.png>
 Package pdftex.def Info: img/2024_11_25_fourier_einheitsanstieg.png  used on in
-put line 371.
+put line 337.
 (pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
 [11 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
 tem_theorie/img/2024_11_25_fourier_deltaimpuls.png> <C:/Users/ZOBMUEL2/OneDrive
  - Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_25_four
 ier_einheitssprung.png>] [12 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projec
 ts/private_signal_und_system_theorie/img/2024_11_25_fourier_einheitsanstieg.png
->] (main.aux)
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
+
+ []
+
+<img/2024_11_27_achsenverschiebung.png, id=67, 297.11pt x 158.5925pt>
+File: img/2024_11_27_achsenverschiebung.png Graphic file (type png)
+<use img/2024_11_27_achsenverschiebung.png>
+Package pdftex.def Info: img/2024_11_27_achsenverschiebung.png  used on input l
+ine 385.
+(pdftex.def)             Requested size: 266.14978pt x 142.07368pt.
+<img/2024_11_27_rect_multiplikation.png, id=68, 297.11pt x 158.5925pt>
+File: img/2024_11_27_rect_multiplikation.png Graphic file (type png)
+<use img/2024_11_27_rect_multiplikation.png>
+Package pdftex.def Info: img/2024_11_27_rect_multiplikation.png  used on input 
+line 387.
+(pdftex.def)             Requested size: 266.14978pt x 142.07368pt.
+[13 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
+tem_theorie/img/2024_11_27_achsenverschiebung.png> <C:/Users/ZOBMUEL2/OneDrive 
+- Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_27_rect_
+multiplikation.png>]
+
+! LaTeX Error: Environment multicol undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 \begin{multicol}
+                      {2}
+? 
+<img/2024_11_27_kreuzkorrelation.png, id=75, 349.305pt x 158.5925pt>
+File: img/2024_11_27_kreuzkorrelation.png Graphic file (type png)
+<use img/2024_11_27_kreuzkorrelation.png>
+Package pdftex.def Info: img/2024_11_27_kreuzkorrelation.png  used on input lin
+e 400.
+(pdftex.def)             Requested size: 266.14978pt x 120.8437pt.
+
+! Package multicol Error: \columnbreak outside multicols.
+
+See the multicol package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 	$
+        E_{u1,u2}(\tau = 0) = 2V \cdot 0.5V \cdot 1s = 1V^2s$ \\
+? 
+
+! LaTeX Error: \begin{document} ended by \end{multicol}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 \end{multicol}
+                    
+? 
+[14 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
+tem_theorie/img/2024_11_27_kreuzkorrelation.png>] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4977 strings out of 474486
- 82256 string characters out of 5742338
+ 5116 strings out of 474486
+ 85144 string characters out of 5742338
  1937542 words of memory out of 5000000
- 27229 multiletter control sequences out of 15000+600000
+ 27364 multiletter control sequences out of 15000+600000
  563787 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,65p,341b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,14n,65p,341b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ZOBMUEL2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
 crm1000.pk><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/t
@@ -511,9 +598,9 @@ Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ZO
 BMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy7.pfb>
-Output written on main.pdf (13 pages, 219430 bytes).
+Output written on main.pdf (14 pages, 231039 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

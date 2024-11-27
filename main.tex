@@ -12,11 +12,11 @@
 \usepackage{xcolor}
 
 % --- manage multicols ---
-
+\usepackage{multicol}
 \usepackage{paracol} % cause multicol does not work properly over several pages I have to use paracol
 \setcolumnwidth{0.30\textwidth}
 \setlength\columnsep{20pt}  
-\setlength{\columnseprule}{0.8pt}
+\setlength{\columnseprule}{0.5pt}
 
 \title{Signal und System Theorie  \\ [1ex] \large Fachsemester 3}
 \author{Prof. Dr.-Ing. Frank Giesecke}
@@ -353,6 +353,54 @@ $y(t) = x(t) * g(t) = \int_{-\infty}^{\infty} x(t) \cdot g(-\tau + t) d\tau$ \\
 $E_{x_1x_2}(\tau) = \int_{-\infty}^{\infty} x_1(t) * x_2(t + \tau) * dt$ \\
 (Im prinzip das selbe wie die Faltungsoperation nur mit einer anderen Intention)
 \end{center}
+
+
+\newpage
+\section*{27.11.2024}
+\begin{center}
+	x(t) $\to$ System mit Impulsantwort g(t) $\to$ y(t) \\ \mbox{} \\
+	$y(t) = x(t) * g(t)$ \\ \mbox{} \\
+	$y(t) = \int_{-\infty}^{\infty} x(\tau) \cdot g(-\tau + t) \cdot d\tau = \int_{-\infty}^{\infty} x(-\tau +t) \cdot g(\tau) \cdot d\tau $ 
+\end{center}
+\subsubsection*{Beispiel Faltung}
+$u_e(t) \to g(t) \to u_a(t)$ \\
+\begin{paracol}{2}
+	$u_e(t)$ \\
+	$u_e(t) = 2V \cdot rect(\frac{t-3s}{4s})$ \\
+	(Grafic fehlt)
+	\switchcolumn
+	$g(t)$ \\
+	$g(t) = 0.5s^{-1} \cdot rect(\frac{t-1s}{2s})$ \\
+	(Grafic fehlt)
+\end{paracol}
+\mbox{} \\
+neue Variable für die Zeitachse weil t Verschiebeparameter wird \\
+$t \to \tau$
+
+\subsubsection*{Spiegelung einer Funktion}
+Gespiegelte Funktion über $\tau$ wird um t verschoben: Verschiebe-Richtung wird ebenfalls gespiegelt
+
+\subsubsection*{Zeitliches Übereinanderlegen der Funktion}
+z.B. auf eine $\tau$-Achse \\
+\includegraphics[width=0.6\textwidth]{img/2024_11_27_achsenverschiebung.png} \\
+Funktion muss sich zeitlich überlagern damit $u_a(t) > 0V$ \\
+\includegraphics[width=0.6\textwidth]{img/2024_11_27_rect_multiplikation.png} \\
+$u_a(1s < t < 3t) = \int_{1s}^{t+1s} 2V \cdot 0.5s^{-1} \cdot d\tau$
+
+\subsection*{Kreuzkorrelation}
+$E_{x1,x2}(\tau) = \int_{-\infty}^{\infty}\cdot x_2(t+\tau) \cdot t$ \\
+\subsubsection*{Unterschiede zur Faltung}
+\begin{itemize}
+	\item keine Umbenennung der Achsen nötig, 
+	\item keine Spiegelung erforderlich \\
+	(aber: Änderung der Verschieberichtung durch das $\tau$)
+\end{itemize}
+\subsubsection*{Darstellung über einer Zeitachse}
+\includegraphics[width=0.6\textwidth]{img/2024_11_27_kreuzkorrelation.png} \\
+$E_{u1,u2}(\tau = 0) = 2V \cdot 0.5V \cdot 1s = 1V^2s$ \\
+$E_{u1,u2}(\tau >= 1s) = 0V$ \\
+$E_{u1,u2}(\tau <= 5s) = 0V$ \\
+\includegraphics[width=0.6\textwidth]{img/2024_11_27_kreuzkorrelation_multiplikation.png}
 
 
 \end{document}
