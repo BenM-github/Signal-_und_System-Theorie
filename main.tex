@@ -64,6 +64,7 @@ $P_{x~} = P_x - P_x$
 
 \subsection*{Direkte Berechnung der Varianz/ Signalwechselspannung aus einem Datensatz (digital)}
 \paragraph{Fallunterscheidung}
+\columnratio{0.5}
 \begin{paracol}{2}
     linerer Mittelwert/ Gleichanteil ist bekannt oder kann exakt bestimmt werden. \\
     $\Bar{x} ist bekannt$ \\
@@ -246,6 +247,7 @@ G(s) = \frac{ (s-s_{01}) * (s-s_{0n}) }{ (s-s_{p1}) * (s-s_{pn}) }*K
 
 \subsubsection*{Betrachtung der verbleibenden (nicht durch Nullstellen ausgelöschten) Polstellen zur Stabilitätsbestimmung}
 Betrachtung der Lage der Polstellen in den Ebenen
+\columnratio{0.5}
 \begin{paracol}{2}
 $G(s) \rightarrow$  s-Ebene \\
 \includegraphics[scale=0.8]{img/2024_11_20_s-Ebene.png}
@@ -364,6 +366,7 @@ $E_{x_1x_2}(\tau) = \int_{-\infty}^{\infty} x_1(t) * x_2(t + \tau) * dt$ \\
 \end{center}
 \subsubsection*{Beispiel Faltung}
 $u_e(t) \to g(t) \to u_a(t)$ \\
+\columnratio{0.5}
 \begin{paracol}{2}
 	$u_e(t)$ \\
 	$u_e(t) = 2V \cdot rect(\frac{t-3s}{4s})$ \\
@@ -408,6 +411,7 @@ $E_{u1,u2}(\tau <= 5s) = 0V$ \\
 \subsection*{Transformationen auf Basis von Cos- und Sin}
 (Was genau hat das Folgende mit Cos und Sin zu tun?)
 \begin{center}
+	\columnratio{0.5}
 	\begin{paracol}{2}
 		Laplace
 		\switchcolumn
@@ -415,6 +419,7 @@ $E_{u1,u2}(\tau <= 5s) = 0V$ \\
 	\end{paracol}
 	(Umkehrbar eindeutige Transformation)
 	\paragraph{Transformations-Kerne} \mbox{} \\
+	\columnratio{0.33}
 	\begin{paracol}{3}
 		$e^{-st}$ \\
 		$e^{+st}$
@@ -441,6 +446,7 @@ transformiert werden
 \end{itemize}
 \[ X(j\omega) = \int_{-\infty}^{+\infty} x(t) \cdot e^{-j\omega t} \cdot dt \]
 
+\columnratio{0.5}
 \begin{paracol}{2}
 	\paragraph{Laplace} \mbox{} \\
 	Paramerter s:
@@ -472,6 +478,9 @@ Auslösung von Integration und Differentation mit der Laplace-Transformation \\
 \[ y(t) = \int_{0}^{t} x(\tau) \cdot d\tau \to y(s) = X(s) \cdot \frac{1}{s} \]
 \[ y(t) = \frac{dx(t)}{dt} \to y(s) = X(s) \cdot s \]
 
+
+\newpage
+\section*{**.12.2024}
 
 
 \end{document}

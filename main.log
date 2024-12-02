@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  2 DEC 2024 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  2 DEC 2024 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -390,237 +390,209 @@ ri-anz/ Zentral-Moment
  []
 
 
-Overfull \hbox (20.43996pt too wide) in paragraph at lines 68--71
- \OT1/cmr/bx/n/10 Fall-un-ter-schei-dung[] \OT1/cmr/m/n/10 li-ne-rer Mit-
- []
-
-
-Overfull \hbox (5.967pt too wide) in paragraph at lines 68--71
-\OT1/cmr/m/n/10 tel-wert/ Gleich-an-teil ist be-kannt
- []
-
-
-Overfull \hbox (2.70464pt too wide) in paragraph at lines 68--71
-\OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 =
- \OML/cmm/m/it/10 ^^V[] \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 coming[]oon\OT1/cmr
-/m/n/10 )$ 
- []
-
-
-Overfull \hbox (0.42581pt too wide) in paragraph at lines 81--82
-\OT1/cmr/m/n/10 Angen[]aherter Ein-heits-sprung, Einheitssprung-Funktion, Einhe
-itsimpuls-Funktion, Del-taim-puls/ Dirac-
- []
-
-[3] [4]
-<img/2024_11_11.png, id=26, 522.95375pt x 191.71625pt>
-File: img/2024_11_11.png Graphic file (type png)
-<use img/2024_11_11.png>
-Package pdftex.def Info: img/2024_11_11.png  used on input line 127.
-(pdftex.def)             Requested size: 418.36356pt x 153.3732pt.
- [5 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
-tem_theorie/img/2024_11_11.png>] [6] [7]
-Overfull \hbox (6.78656pt too wide) in paragraph at lines 185--186
-[][] \OT1/cmr/m/n/10 BIBO-Stabilit[]at[] (Boun-ded
- []
-
-
-Overfull \hbox (0.95317pt too wide) in paragraph at lines 185--186
-\OT1/cmr/m/n/10 In-put - Boun-ded Out-put)
- []
-
-
-Overfull \hbox (7.48087pt too wide) in paragraph at lines 186--187
-[]\OT1/cmr/m/n/10 Nachweis via Be-tr[]agsfl[]ache 
- []
-
-
-Overfull \hbox (0.14752pt too wide) in paragraph at lines 190--191
-\OT1/cmr/m/n/10 me f[]ur zeit-dis-kre-te Sy-ste-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-
- []
-
-
-Overfull \hbox (8.69295pt too wide) in paragraph at lines 210--211
-[]\OT1/cmr/m/n/10 (Ilustration Ein-gangs-si-gnal $\OMS/cmsy/m/n/10 !$
- []
-
-
-Overfull \hbox (8.69295pt too wide) in paragraph at lines 213--214
-[]\OT1/cmr/m/n/10 (Ilustration Ein-gangs-si-gnal $\OMS/cmsy/m/n/10 !$
- []
-
-[8]
-<img/2024_11_20_s-Ebene.png, id=43, 176.66pt x 176.66pt>
-File: img/2024_11_20_s-Ebene.png Graphic file (type png)
-<use img/2024_11_20_s-Ebene.png>
-Package pdftex.def Info: img/2024_11_20_s-Ebene.png  used on input line 251.
-(pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
-
-Overfull \hbox (8.2533pt too wide) in paragraph at lines 250--252
-[] 
- []
-
-
-Overfull \hbox (3.42133pt too wide) in paragraph at lines 253--255
-[]\OT1/cmr/m/n/10 Polstellen link von der $\OML/cmm/m/it/10 j!$\OT1/cmr/m/n/10 
--
- []
-
-<img/2024_11_20_z-Ebene.png, id=44, 176.66pt x 176.66pt>
-File: img/2024_11_20_z-Ebene.png Graphic file (type png)
-<use img/2024_11_20_z-Ebene.png>
-Package pdftex.def Info: img/2024_11_20_z-Ebene.png  used on input line 273.
-(pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
-[9 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_syst
-em_theorie/img/2024_11_20_s-Ebene.png> <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss
- AG/projects/private_signal_und_system_theorie/img/2024_11_20_z-Ebene.png>]
-[10]
-Overfull \hbox (33.37158pt too wide) in paragraph at lines 325--325
-[]\OT1/cmr/bx/n/12 Ausgang ei-nes li-nea-ren und zei-tin-va-ri-an-ten Sy-stems 
-zur System-Charakterisierung 
- []
-
-<img/2024_11_25_fourier_deltaimpuls.png, id=54, 550.055pt x 143.53625pt>
-File: img/2024_11_25_fourier_deltaimpuls.png Graphic file (type png)
-<use img/2024_11_25_fourier_deltaimpuls.png>
-Package pdftex.def Info: img/2024_11_25_fourier_deltaimpuls.png  used on input 
-line 331.
-(pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
-<img/2024_11_25_fourier_einheitssprung.png, id=55, 550.055pt x 143.53625pt>
-File: img/2024_11_25_fourier_einheitssprung.png Graphic file (type png)
-<use img/2024_11_25_fourier_einheitssprung.png>
-Package pdftex.def Info: img/2024_11_25_fourier_einheitssprung.png  used on inp
-ut line 334.
-(pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
-<img/2024_11_25_fourier_einheitsanstieg.png, id=56, 550.055pt x 143.53625pt>
-File: img/2024_11_25_fourier_einheitsanstieg.png Graphic file (type png)
-<use img/2024_11_25_fourier_einheitsanstieg.png>
-Package pdftex.def Info: img/2024_11_25_fourier_einheitsanstieg.png  used on in
-put line 337.
-(pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
-[11 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
-tem_theorie/img/2024_11_25_fourier_deltaimpuls.png> <C:/Users/ZOBMUEL2/OneDrive
- - Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_25_four
-ier_einheitssprung.png>] [12 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projec
-ts/private_signal_und_system_theorie/img/2024_11_25_fourier_einheitsanstieg.png
->]
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-<img/2024_11_27_achsenverschiebung.png, id=67, 297.11pt x 158.5925pt>
-File: img/2024_11_27_achsenverschiebung.png Graphic file (type png)
-<use img/2024_11_27_achsenverschiebung.png>
-Package pdftex.def Info: img/2024_11_27_achsenverschiebung.png  used on input l
-ine 385.
-(pdftex.def)             Requested size: 266.14978pt x 142.07368pt.
-<img/2024_11_27_rect_multiplikation.png, id=68, 297.11pt x 158.5925pt>
-File: img/2024_11_27_rect_multiplikation.png Graphic file (type png)
-<use img/2024_11_27_rect_multiplikation.png>
-Package pdftex.def Info: img/2024_11_27_rect_multiplikation.png  used on input 
-line 387.
-(pdftex.def)             Requested size: 266.14978pt x 142.07368pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
-
- []
-
-[13 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
-tem_theorie/img/2024_11_27_achsenverschiebung.png> <C:/Users/ZOBMUEL2/OneDrive 
-- Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_27_rect_
-multiplikation.png>]
-<img/2024_11_27_kreuzkorrelation.png, id=75, 349.305pt x 158.5925pt>
-File: img/2024_11_27_kreuzkorrelation.png Graphic file (type png)
-<use img/2024_11_27_kreuzkorrelation.png>
-Package pdftex.def Info: img/2024_11_27_kreuzkorrelation.png  used on input lin
-e 399.
-(pdftex.def)             Requested size: 266.14978pt x 120.8437pt.
-<img/2024_11_27_kreuzkorrelation_multiplikation.png, id=76, 270.00874pt x 138.5
-175pt>
-File: img/2024_11_27_kreuzkorrelation_multiplikation.png Graphic file (type png
-)
-<use img/2024_11_27_kreuzkorrelation_multiplikation.png>
-Package pdftex.def Info: img/2024_11_27_kreuzkorrelation_multiplikation.png  us
-ed on input line 403.
-(pdftex.def)             Requested size: 266.14978pt x 136.54092pt.
- [14 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sy
-stem_theorie/img/2024_11_27_kreuzkorrelation.png> <C:/Users/ZOBMUEL2/OneDrive -
- Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_27_kreuzk
-orrelation_multiplikation.png>]
-Overfull \hbox (9.56422pt too wide) in paragraph at lines 451--454
-\OT1/cmr/m/n/10 ins Un-end-li-che an An-stei-gen wird
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--472
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.474 
-      
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.474 
-      
-? 
-[15]
-
-! LaTeX Error: \begin{equation*} on input line 473 ended by \end{document}.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.477 \end{document}
-                    
+l.66 ...h{Fallunterscheidung} \mbox{} \end{center}
+                                                  
 ? 
+
+Overfull \hbox (0.42581pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 Angen[]aherter Ein-heits-sprung, Einheitssprung-Funktion, Einhe
+itsimpuls-Funktion, Del-taim-puls/ Dirac-
+ []
+
+
+Overfull \hbox (26.44618pt too wide) in paragraph at lines 95--95
+ []$\OMS/cmsy/m/n/10 ^^@1\OML/cmm/m/it/10 bisaktuellerZeitpunkt\OT1/cmr/m/n/10 
+(\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$ 
+ []
+
+[3] [4] [5]
+<img/2024_11_11.png, id=29, 522.95375pt x 191.71625pt>
+File: img/2024_11_11.png Graphic file (type png)
+<use img/2024_11_11.png>
+Package pdftex.def Info: img/2024_11_11.png  used on input line 128.
+(pdftex.def)             Requested size: 418.36356pt x 153.3732pt.
+ [6 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
+tem_theorie/img/2024_11_11.png>] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Overfull \hbox (9.10559pt too wide) in paragraph at lines 211--212
+[]\OT1/cmr/m/n/10 (Ilustration Ein-gangs-
+ []
+
+
+Overfull \hbox (5.16115pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 si-gnal $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Aus-gangs-si-gnal
+ []
+
+
+Overfull \hbox (9.10559pt too wide) in paragraph at lines 214--215
+[]\OT1/cmr/m/n/10 (Ilustration Ein-gangs-
+ []
+
+
+Overfull \hbox (5.16115pt too wide) in paragraph at lines 214--215
+\OT1/cmr/m/n/10 si-gnal $\OMS/cmsy/m/n/10 !$ \OT1/cmr/m/n/10 Aus-gangs-si-gnal
+ []
+
+[9]
+<img/2024_11_20_s-Ebene.png, id=46, 176.66pt x 176.66pt>
+File: img/2024_11_20_s-Ebene.png Graphic file (type png)
+<use img/2024_11_20_s-Ebene.png>
+Package pdftex.def Info: img/2024_11_20_s-Ebene.png  used on input line 253.
+(pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
+
+Overfull \hbox (6.34589pt too wide) in paragraph at lines 257--259
+[]\OT1/cmr/m/n/10 mindestens ei-ne Pol-stel-le rechts der $\OML/cmm/m/it/10 j!$
+\OT1/cmr/m/n/10 -Achse
+ []
+
+
+Overfull \hbox (3.15556pt too wide) in paragraph at lines 259--261
+\OT1/cmr/m/n/10 ein-fa-che Pol-stel-len (be-lie-bi-ger An-zahl an un-
+ []
+
+<img/2024_11_20_z-Ebene.png, id=47, 176.66pt x 176.66pt>
+File: img/2024_11_20_z-Ebene.png Graphic file (type png)
+<use img/2024_11_20_z-Ebene.png>
+Package pdftex.def Info: img/2024_11_20_z-Ebene.png  used on input line 275.
+(pdftex.def)             Requested size: 141.32819pt x 141.32819pt.
+
+Overfull \hbox (1.7944pt too wide) in paragraph at lines 279--281
+[]\OT1/cmr/m/n/10 mindestens ei-ne Pol-stel-le au-^^Yer-halb des Ein-
+ []
+
+
+Overfull \hbox (5.79445pt too wide) in paragraph at lines 281--283
+\OT1/cmr/m/n/10 An-zahl an un-ter-schied-li-chen Stel-len) auf dem
+ []
+
+[10 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
+tem_theorie/img/2024_11_20_s-Ebene.png> <C:/Users/ZOBMUEL2/OneDrive - Carl Zeis
+s AG/projects/private_signal_und_system_theorie/img/2024_11_20_z-Ebene.png>]
+[11]
+Overfull \hbox (33.37158pt too wide) in paragraph at lines 327--327
+[]\OT1/cmr/bx/n/12 Ausgang ei-nes li-nea-ren und zei-tin-va-ri-an-ten Sy-stems 
+zur System-Charakterisierung 
+ []
+
+<img/2024_11_25_fourier_deltaimpuls.png, id=57, 550.055pt x 143.53625pt>
+File: img/2024_11_25_fourier_deltaimpuls.png Graphic file (type png)
+<use img/2024_11_25_fourier_deltaimpuls.png>
+Package pdftex.def Info: img/2024_11_25_fourier_deltaimpuls.png  used on input 
+line 333.
+(pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
+<img/2024_11_25_fourier_einheitssprung.png, id=58, 550.055pt x 143.53625pt>
+File: img/2024_11_25_fourier_einheitssprung.png Graphic file (type png)
+<use img/2024_11_25_fourier_einheitssprung.png>
+Package pdftex.def Info: img/2024_11_25_fourier_einheitssprung.png  used on inp
+ut line 336.
+(pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
+<img/2024_11_25_fourier_einheitsanstieg.png, id=59, 550.055pt x 143.53625pt>
+File: img/2024_11_25_fourier_einheitsanstieg.png Graphic file (type png)
+<use img/2024_11_25_fourier_einheitsanstieg.png>
+Package pdftex.def Info: img/2024_11_25_fourier_einheitsanstieg.png  used on in
+put line 339.
+(pdftex.def)             Requested size: 440.04459pt x 114.82915pt.
+[12 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
+tem_theorie/img/2024_11_25_fourier_deltaimpuls.png> <C:/Users/ZOBMUEL2/OneDrive
+ - Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_25_four
+ier_einheitssprung.png>] [13 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projec
+ts/private_signal_und_system_theorie/img/2024_11_25_fourier_einheitsanstieg.png
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
+
+ []
+
+<img/2024_11_27_achsenverschiebung.png, id=71, 297.11pt x 158.5925pt>
+File: img/2024_11_27_achsenverschiebung.png Graphic file (type png)
+<use img/2024_11_27_achsenverschiebung.png>
+Package pdftex.def Info: img/2024_11_27_achsenverschiebung.png  used on input l
+ine 388.
+(pdftex.def)             Requested size: 266.14978pt x 142.07368pt.
+<img/2024_11_27_rect_multiplikation.png, id=72, 297.11pt x 158.5925pt>
+File: img/2024_11_27_rect_multiplikation.png Graphic file (type png)
+<use img/2024_11_27_rect_multiplikation.png>
+Package pdftex.def Info: img/2024_11_27_rect_multiplikation.png  used on input 
+line 390.
+(pdftex.def)             Requested size: 266.14978pt x 142.07368pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+
+ []
+
+[14 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
+tem_theorie/img/2024_11_27_achsenverschiebung.png> <C:/Users/ZOBMUEL2/OneDrive 
+- Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_27_rect_
+multiplikation.png>]
+<img/2024_11_27_kreuzkorrelation.png, id=78, 349.305pt x 158.5925pt>
+File: img/2024_11_27_kreuzkorrelation.png Graphic file (type png)
+<use img/2024_11_27_kreuzkorrelation.png>
+Package pdftex.def Info: img/2024_11_27_kreuzkorrelation.png  used on input lin
+e 402.
+(pdftex.def)             Requested size: 266.14978pt x 120.8437pt.
+<img/2024_11_27_kreuzkorrelation_multiplikation.png, id=79, 270.00874pt x 138.5
+175pt>
+File: img/2024_11_27_kreuzkorrelation_multiplikation.png Graphic file (type png
+)
+<use img/2024_11_27_kreuzkorrelation_multiplikation.png>
+Package pdftex.def Info: img/2024_11_27_kreuzkorrelation_multiplikation.png  us
+ed on input line 406.
+(pdftex.def)             Requested size: 266.14978pt x 136.54092pt.
+ [15 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sy
+stem_theorie/img/2024_11_27_kreuzkorrelation.png> <C:/Users/ZOBMUEL2/OneDrive -
+ Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_27_kreuzk
+orrelation_multiplikation.png>]
+Overfull \hbox (1.3534pt too wide) in paragraph at lines 457--460
+\OT1/cmr/m/n/10 Problem: bei in-sta-bi-e-len Sy-ste-men Im-pul-sant-wort
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
+
+ []
+
 [16] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 473 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
  5120 strings out of 474486
- 85469 string characters out of 5742338
+ 85471 string characters out of 5742338
  1937542 words of memory out of 5000000
  27368 multiletter control sequences out of 15000+600000
  563787 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,65p,341b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ZOBMUEL2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\tcrm1000.pk><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ZOBMUEL2/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ZOBMUEL2
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
-ers/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmi5.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ZOBMUEL2/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ZOBMUEL2
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/User
-s/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (16 pages, 238892 bytes).
+ 57i,14n,65p,341b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ZOBMUEL2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
+crm1000.pk><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ZOBMUEL2/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ZOBMUEL2/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
+s/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ZOBMUEL2/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ZOBMUEL2/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ZO
+BMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb>
+Output written on main.pdf (16 pages, 238869 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
