@@ -356,7 +356,7 @@ $E_{x_1x_2}(\tau) = \int_{-\infty}^{\infty} x_1(t) * x_2(t + \tau) * dt$ \\
 
 
 \newpage
-\section*{27.11.2024}
+\section*{\centering 27.11.2024}
 \begin{center}
 	x(t) $\to$ System mit Impulsantwort g(t) $\to$ y(t) \\ \mbox{} \\
 	$y(t) = x(t) * g(t)$ \\ \mbox{} \\
@@ -401,6 +401,77 @@ $E_{u1,u2}(\tau = 0) = 2V \cdot 0.5V \cdot 1s = 1V^2s$ \\
 $E_{u1,u2}(\tau >= 1s) = 0V$ \\
 $E_{u1,u2}(\tau <= 5s) = 0V$ \\
 \includegraphics[width=0.6\textwidth]{img/2024_11_27_kreuzkorrelation_multiplikation.png}
+
+
+\newpage
+\section*{\centering 02.12.2024}
+\subsection*{Transformationen auf Basis von Cos- und Sin}
+(Was genau hat das Folgende mit Cos und Sin zu tun?)
+\begin{center}
+	\begin{paracol}{2}
+		Laplace
+		\switchcolumn
+		Fourier
+	\end{paracol}
+	(Umkehrbar eindeutige Transformation)
+	\paragraph{Transformations-Kerne} \mbox{} \\
+	\begin{paracol}{3}
+		$e^{-st}$ \\
+		$e^{+st}$
+		\switchcolumn
+		Hintransformation \\
+		Rücktransformation
+		\switchcolumn
+		$e^{-j\omega t}$ \\
+		$e^{+j\omega t}$
+	\end{paracol}	
+\end{center}
+\paragraph{Laplace Transformation} \mbox{} \\
+transformiert werden 
+\begin{itemize}
+	\item Signale (allg. Terstsignale wie Einheitstsprung oder Delta-Inpuls)
+	\item Beschreibung von Systemen (allg. die Impulsantwort)
+\end{itemize}
+\[ X(s) = \int_{0}^{+\infty} x(t) \cdot e^{-st} \cdot dt \]
+\paragraph{Fourier Transformation} \mbox{} \\
+transformiert werden
+\begin{itemize}
+	\item Signale (jeder mögliche Verlauf mit dem Ziel des Erhalts der Frequenzanteile des Signals)
+	\item Beschreibung von Systemen (im Allgemeinen die Impulsantwort zum Erhalt des komplexen Frequenzgangs)
+\end{itemize}
+\[ X(j\omega) = \int_{-\infty}^{+\infty} x(t) \cdot e^{-j\omega t} \cdot dt \]
+
+\begin{paracol}{2}
+	\paragraph{Laplace} \mbox{} \\
+	Paramerter s:
+	\begin{itemize}
+		\item komplexe
+		\item $s = \delta + j\omega$
+	\end{itemize}
+	Anwendung: \\
+	Erkennung der Stabilität \\
+	Problem: bei instabielen Systemen Impulsantwort steigt bis ins Unendliche an Ansteigen wird kompensiert durch den Faktor $e^{-st}$ mit $\delta > 0$
+	\switchcolumn
+	\paragraph{Fourier} \mbox{} \\
+	Paramerter $j \omega$:
+	\begin{itemize}
+		\item rein imaginär
+	\end{itemize}
+	Anwendung: \\
+	Faltung zu multiplikationen Auslösen \\
+	(Reihen- /Kettenschaltung von Systemen)
+	\[ g_{ges}(t) = g_1(t) * g_2(t) \]
+\end{paracol}
+
+\paragraph{Anwendung in Rückgekoppelten Systemen} \mbox{} \\
+(Grafik \& Herleitung fehlt)
+\[ G_{ges}(s) = \frac{X_a(s)}{X_e(s)} = \frac{G_1(s)}{1+ G_1(s) \cdot G_2(s)} \]
+
+\paragraph{Anwendung der Labplace Transformation} \mbox{} \\
+Auslösung von Integration und Differentation mit der Laplace-Transformation \\
+\[ y(t) = \int_{0}^{t} x(\tau) \cdot d\tau \to y(s) = X(s) \cdot \frac{1}{s} \]
+\[ y(t) = \frac{dx(t)}{dt} \to y(s) = X(s) \cdot s \]
+
 
 
 \end{document}

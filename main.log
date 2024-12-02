@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  27 NOV 2024 09:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.18)  2 DEC 2024 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,7 +509,7 @@ tem_theorie/img/2024_11_25_fourier_deltaimpuls.png> <C:/Users/ZOBMUEL2/OneDrive
 ier_einheitssprung.png>] [12 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projec
 ts/private_signal_und_system_theorie/img/2024_11_25_fourier_einheitsanstieg.png
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 365--367
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
@@ -525,82 +525,104 @@ File: img/2024_11_27_rect_multiplikation.png Graphic file (type png)
 Package pdftex.def Info: img/2024_11_27_rect_multiplikation.png  used on input 
 line 387.
 (pdftex.def)             Requested size: 266.14978pt x 142.07368pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
 [13 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
 tem_theorie/img/2024_11_27_achsenverschiebung.png> <C:/Users/ZOBMUEL2/OneDrive 
 - Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_27_rect_
 multiplikation.png>]
-
-! LaTeX Error: Environment multicol undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \begin{multicol}
-                      {2}
-? 
 <img/2024_11_27_kreuzkorrelation.png, id=75, 349.305pt x 158.5925pt>
 File: img/2024_11_27_kreuzkorrelation.png Graphic file (type png)
 <use img/2024_11_27_kreuzkorrelation.png>
 Package pdftex.def Info: img/2024_11_27_kreuzkorrelation.png  used on input lin
-e 400.
+e 399.
 (pdftex.def)             Requested size: 266.14978pt x 120.8437pt.
+<img/2024_11_27_kreuzkorrelation_multiplikation.png, id=76, 270.00874pt x 138.5
+175pt>
+File: img/2024_11_27_kreuzkorrelation_multiplikation.png Graphic file (type png
+)
+<use img/2024_11_27_kreuzkorrelation_multiplikation.png>
+Package pdftex.def Info: img/2024_11_27_kreuzkorrelation_multiplikation.png  us
+ed on input line 403.
+(pdftex.def)             Requested size: 266.14978pt x 136.54092pt.
+ [14 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sy
+stem_theorie/img/2024_11_27_kreuzkorrelation.png> <C:/Users/ZOBMUEL2/OneDrive -
+ Carl Zeiss AG/projects/private_signal_und_system_theorie/img/2024_11_27_kreuzk
+orrelation_multiplikation.png>]
+Overfull \hbox (9.56422pt too wide) in paragraph at lines 451--454
+\OT1/cmr/m/n/10 ins Un-end-li-che an An-stei-gen wird
+ []
 
-! Package multicol Error: \columnbreak outside multicols.
 
-See the multicol package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.402 	$
-        E_{u1,u2}(\tau = 0) = 2V \cdot 0.5V \cdot 1s = 1V^2s$ \\
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.474 
+      
 ? 
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.474 
+      
+? 
+[15]
 
-! LaTeX Error: \begin{document} ended by \end{multicol}.
+! LaTeX Error: \begin{equation*} on input line 473 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.405 \end{multicol}
+l.477 \end{document}
                     
 ? 
-[14 <C:/Users/ZOBMUEL2/OneDrive - Carl Zeiss AG/projects/private_signal_und_sys
-tem_theorie/img/2024_11_27_kreuzkorrelation.png>] (main.aux)
+[16] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 473 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 5116 strings out of 474486
- 85144 string characters out of 5742338
+ 5120 strings out of 474486
+ 85469 string characters out of 5742338
  1937542 words of memory out of 5000000
- 27364 multiletter control sequences out of 15000+600000
+ 27368 multiletter control sequences out of 15000+600000
  563787 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,14n,65p,341b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ZOBMUEL2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
-crm1000.pk><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ZOBMUEL2/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ZOBMUEL2/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
-s/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.p
-fb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ZOBMUEL2/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/ZOBMUEL2/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ZO
-BMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb>
-Output written on main.pdf (14 pages, 231039 bytes).
+ <C:\Users\ZOBMUEL2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\tcrm1000.pk><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ZOBMUEL2/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ZOBMUEL2
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
+ers/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ZOBMUEL2/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ZOBMUEL2
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/User
+s/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pf
+b><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/ZOBMUEL2/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (16 pages, 238892 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
