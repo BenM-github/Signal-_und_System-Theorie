@@ -1,4 +1,3 @@
-%\documentclass[a4paper]{article}
 \documentclass{article}
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
@@ -6,8 +5,12 @@
 \usepackage[german]{babel}
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
-\usepackage{amsmath}
+\parindent 0px % remove Paragraph indentation
+
+\usepackage{amsmath, amssymb, amsfonts}
 \usepackage{graphicx}
+% \usepackage{float}
+
 % \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{xcolor}
 
@@ -25,9 +28,100 @@
 \begin{document}
 \maketitle
 
+\newpage
+\tableofcontents
 
 \newpage
-\section*{\centering 16.10.2024 (Vorlesung noch nicht nachgetragen)}
+\section{\centering Literatur}
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		Title & Author \\
+		\hline\hline
+		Signal und Systemtheorie & Frey Bassardi \\
+		\hline
+		Grundlagen der Informationstechnik & Martin Meyer \\
+		\hline
+		Angewandte Systemtheorie. Kontinuierliche und zeitdiskrete Signalverarbeitung & Dieter Kreß, Ralf Irmer \\
+		\hline
+		Signal- und Systemtheorie in Beispielen & Eberhard Voigt \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\newpage
+\section{\centering 16.10.2024 (ohne Grafiken)}
+\subsection{System}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=3cm]{example-image}
+	\caption{System}\label{Abb. System}
+\end{figure}
+
+\subsection{Teilsystem}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=3cm]{example-image}
+	\caption{Teilsystem}\label{Abb. Teilsystem}
+\end{figure}
+
+\subsection{Beispiel: RC-Tiefpass}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=3cm]{example-image}
+	\caption{RC-Tiefpass}\label{Abb. RC-Tiefpass}
+\end{figure}
+
+\subsection{Regelkreis}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=3cm]{example-image}
+	\caption{Regelkreis}\label{Abb. Regelkreis}
+\end{figure}
+
+\columnratio{0.5}
+\begin{paracol}{2}
+	{\large Analogsignal (kontinuirlich)}
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=3cm]{example-image}
+		\caption{kontinuierliches Signal}\label{Abb. kontinuierliches Signal}
+	\end{figure}
+	Zu jedem Zeitpunkt ein beliebig definierter Wert.
+	\switchcolumn
+	Digitalsignal (diskret)
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=3cm]{example-image}
+		\caption{diskretes Signal}\label{Abb. diskretes Signal}
+	\end{figure}
+\end{paracol}
+
+\subsection{Signalbeschreibung}
+\columnratio{0.5}
+\begin{paracol}{2}
+	{\large Leistungssignale} \\
+	Zeitlich unbegrenzter Verlauf \\
+	(auch einseitig unendlich)
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=3cm]{example-image}
+		\caption{Leistungssignal}\label{Abb. Leistungssignal}
+	\end{figure}
+	\switchcolumn
+	{\large Energiesignale} \\
+	Zeitlich Begrenzt
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=3cm]{example-image}
+		\caption{Energiesignal}\label{Abb. Energiesignal}
+	\end{figure}
+\end{paracol}
+
+
+\newpage
 \section*{\centering 21.10.2024 (Vorlesung noch nicht nachgetragen)}
 \section*{\centering 23.10.2024 (Vorlesung noch nicht nachgetragen)}
 
@@ -82,12 +176,13 @@ $P_{x~} = P_x - P_x$
 Angenäherter Einheitssprung, Einheitssprung-Funktion, Einheitsimpuls-Funktion, Deltaimpuls/ Dirac-Impuls, Einheitsanstiegs-Funktion
 
 \subsection*{Angenäherter Einheitssprung ($\delta$ delta)}
+\columnratio{0.3}
 \begin{paracol}{3}
 	(grafic is coming soon)
 
 	\switchcolumn
 	\begin{center}
-    		$\overrightarrow{Differentation}$ \\
+    	$\overrightarrow{Differentation}$ \\
 		$(\frac{d}{dt})$ \\
 		\vspace{1em}
 		$\overleftarrow{Integration}$ \\

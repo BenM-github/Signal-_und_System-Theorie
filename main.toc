@@ -1,0 +1,26 @@
+\babel@toc {german}{}\relax 
+\contentsline {section}{\numberline {1}\centering Literatur}{3}{}%
+\contentsline {section}{\numberline {2}\centering 16.10.2024 (ohne Grafiken)}{4}{}%
+\contentsline {subsection}{\numberline {2.1}System}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Teilsystem}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Beispiel: RC-Tiefpass}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Regelkreis}{4}{}%
+\contentsline {subsection}{\numberline {2.5}Signalbeschreibung}{6}{}%
+\contentsline {paragraph}{Fallunterscheidung}{8}{}%
+\contentsline {paragraph}{Klassifizierung}{13}{}%
+\contentsline {paragraph}{Mathematisch}{13}{}%
+\contentsline {paragraph}{Bsp. Integrator}{14}{}%
+\contentsline {paragraph}{Bsp. Integrator}{14}{}%
+\contentsline {paragraph}{Querverbindung:}{16}{}%
+\contentsline {paragraph}{Deltaimpuls}{16}{}%
+\contentsline {paragraph}{Einheitssprung:}{16}{}%
+\contentsline {paragraph}{Einheitsanstieg:}{17}{}%
+\contentsline {paragraph}{Faltungsoperation (*):}{17}{}%
+\contentsline {paragraph}{Kreuzkorrelation (schon mal gemacht)}{17}{}%
+\contentsline {paragraph}{Transformations-Kerne}{20}{}%
+\contentsline {paragraph}{Laplace Transformation}{20}{}%
+\contentsline {paragraph}{Fourier Transformation}{20}{}%
+\contentsline {paragraph}{Laplace}{20}{}%
+\contentsline {paragraph}{Fourier}{20}{}%
+\contentsline {paragraph}{Anwendung in Rückgekoppelten Systemen}{20}{}%
+\contentsline {paragraph}{Anwendung der Labplace Transformation}{20}{}%
